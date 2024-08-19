@@ -88,6 +88,17 @@ body{
   transform: rotate(35deg); -webkit-transform: rotate(35deg);
 }
 
+/* アイコン表示 */
+.container .line_left img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
 /* チャット時間 */
 .container .line_left .time {
   position: absolute;

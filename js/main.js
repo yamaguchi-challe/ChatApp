@@ -80,6 +80,9 @@ const key  = data.key;      //データのユニークキー（削除や更新�
 //表示用テキスト・HTMLを作成
 
 let chat = '<div class="line_left">';
+    // chat += '<figure>';
+    chat += '<img src="img/buke.png"/>';
+    // chat += '</figure>';
     chat += '<div class="line_left-text">';
     chat += '<div class="name"><br>';
     chat += msg.uname;
